@@ -49,6 +49,8 @@ Parameter tuning was performed using RandomizedSearchCV for Logistic Regression,
 #### Bryan
 ### Data Cleaning, Exploratory Analysis, Machine Learning Models, Analytic Visualization, Model Optimization: 
 #### Chang Zen
+### Video Editing, Voice Over:
+#### Bryan, Alex
 
 ## References
 Online:
