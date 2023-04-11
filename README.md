@@ -15,6 +15,7 @@ The raw data is imported from two CSV files, 'Fake.csv' and 'True.csv'. The data
   - Lemmatizing words
   - Removing URLs
   - Converting the date column to datetime format
+  
 The cleaned dataset is saved as 'cleaned_news_data.csv'.
 
 ## Exploratory Analysis and Analytic Visualization
