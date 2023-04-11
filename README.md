@@ -28,7 +28,15 @@ Various insights were derived from the cleaned data, including:
   - There has been a recent increase in fake news and a decrease in real news
   
 ## Machine Learning Models
-Decision Tree, Logistic Regression, Random Forest, Multinomial Naive Bayes, and SVM models were used for detecting fake news. The data was transformed using Bag of Words, TF-IDF, and GloVe. Model performance was compared based on accuracy, precision, recall, and F1 score.
+### Decision Tree, Logistic Regression, Random Forest, Multinomial Naive Bayes, and SVM models were used for detecting fake news.
+The data was transformed using Bag of Words, TF-IDF, and GloVe.
+While the decision tree model achieved high accuracy on this specific dataset, there are several potential issues related to using decision trees with TF-IDF transformed text data:
+  -High dimensionality
+  -Sparse data
+  -Lack of feature interactions
+  -Imbalanced class distribution
+  -Interpretability
+Thus we proceeded to use the following models 'Logistic Regression', 'Random Forest', 'Multinomial Naive Bayes', 'SVM' instead. Model performance was compared based on accuracy, precision, recall, and F1 score.
 
 The Random Forest model with Bag of Words and TF-IDF input types performed the best, achieving the highest scores in accuracy, precision, recall, and F1 score.
 
