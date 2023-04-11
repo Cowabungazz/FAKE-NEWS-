@@ -36,8 +36,10 @@ The Random Forest model with Bag of Words and TF-IDF input types performed the b
 Parameter tuning was performed using RandomizedSearchCV for Logistic Regression, Random Forest, Multinomial Naive Bayes, and SVM models.
 
 ## Contributions
-Practical Motivation, Problem Formulation: Bryan
-Data Cleaning, Exploratory Analysis, Machine Learning Models, Analytic Visualization, Model Optimization: Chang Zen
+### Practical Motivation, Problem Formulation: 
+#### Bryan
+### Data Cleaning, Exploratory Analysis, Machine Learning Models, Analytic Visualization, Model Optimization: 
+#### Chang Zen
 
 ## References
 Online:
