@@ -39,7 +39,7 @@ Parameter tuning was performed using RandomizedSearchCV for Logistic Regression,
 Practical Motivation, Problem Formulation: Bryan
 Data Cleaning, Exploratory Analysis, Machine Learning Models, Analytic Visualization, Model Optimization: Chang Zen
 
-References
+## References
 Online:
 Dataset Source: https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
 Scikit-learn documentation: https://scikit-learn.org/stable/
