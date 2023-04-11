@@ -36,6 +36,7 @@ While the decision tree model achieved high accuracy on this specific dataset, t
   - Lack of feature interactions
   - Imbalanced class distribution
   - Interpretability
+
 Thus we proceeded to use the following models 'Logistic Regression', 'Random Forest', 'Multinomial Naive Bayes', 'SVM' instead. Model performance was compared based on accuracy, precision, recall, and F1 score.
 
 The Random Forest model with Bag of Words and TF-IDF input types performed the best, achieving the highest scores in accuracy, precision, recall, and F1 score.
