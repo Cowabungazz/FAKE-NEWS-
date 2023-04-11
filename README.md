@@ -52,12 +52,12 @@ Parameter tuning was performed using RandomizedSearchCV for Logistic Regression,
 
 ## References
 Online:
-Dataset Source: https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
-Scikit-learn documentation: https://scikit-learn.org/stable/
-Text preprocessing with NLTK and BeautifulSoup: https://www.nltk.org/ and https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-News Prediction 1: https://www.reuters.com/article/us-usa-fiscal-idUSKBN1EP0LK
-News Prediction 2: https://web.archive.org/web/20161115024211/http://wtoe5news.com/us-election/pope-francis-shocks-world-endorses-donald-trump-for-president-releases-statement/
+- Dataset Source: https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+- Scikit-learn documentation: https://scikit-learn.org/stable/
+- Text preprocessing with NLTK and BeautifulSoup: https://www.nltk.org/ and https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- News Prediction 1: https://www.reuters.com/article/us-usa-fiscal-idUSKBN1EP0LK
+- News Prediction 2: https://web.archive.org/web/20161115024211/http://wtoe5news.com/us-election/pope-francis-shocks-world-endorses-donald-trump-for-president-releases-statement/
 Offline:
-Textbook 1: Jurafsky, D., & Martin, J. H. (2019). Speech and Language Processing (3rd Edition). Stanford University.
-Textbook 2: Raschka, S., & Mirjalili, V. (2017). Python Machine Learning (2nd Edition). Packt Publishing.
-Textbook 3: James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning: With Applications in R. Springer.
+- Textbook 1: Jurafsky, D., & Martin, J. H. (2019). Speech and Language Processing (3rd Edition). Stanford University.
+- Textbook 2: Raschka, S., & Mirjalili, V. (2017). Python Machine Learning (2nd Edition). Packt Publishing.
+- Textbook 3: James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning: With Applications in R. Springer.
