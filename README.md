@@ -1,4 +1,4 @@
-# Fake News Detection using Texts & Titles with Machine Learning-
+# Fake News Detection using Texts & Titles with Machine Learning- PROBLEM DEFINITION:
 This project aims to detect fake news using machine learning algorithms by analyzing the texts and titles of news articles. The dataset contains articles labeled as fake or real, which are preprocessed and analyzed using various machine learning models. The performance of the models is then compared, and the best model is selected for detecting fake news.
 
 The following sections provide more details on the different steps and components of the project.
