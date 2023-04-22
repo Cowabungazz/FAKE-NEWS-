@@ -1,4 +1,4 @@
-# Note: Pls refer to the zip project in the shared google drive folder to view the interactive plotly.io diagrams in our Jupyter files
+# Note: Jupyter Notebook has to be “Trusted” top right corner in order to see the diagrams. Pls refer to the zip project in the shared google drive folder to view the interactive plotly.io diagrams in our Jupyter files
 https://drive.google.com/drive/folders/1xcpjzls9vZ82UabUL2D5sBA8gONdYsZd?usp=sharing
 
 
