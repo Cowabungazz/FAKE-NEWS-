@@ -1,3 +1,7 @@
+# Note: Pls refer to the zip project in the shared google drive folder to view the interactive plotly.io diagrams in our Jupyter files
+https://drive.google.com/drive/folders/1xcpjzls9vZ82UabUL2D5sBA8gONdYsZd?usp=sharing
+
+
 # Fake News Detection using Texts & Titles with Machine Learning- PROBLEM DEFINITION:
 In the era of the internet and social media, the spread of misinformation and fake news has become a significant challenge for individuals, governments, and organizations worldwide. As the volume of digital content increases, it becomes increasingly difficult for consumers to differentiate between legitimate news sources and fake news. The consequences of this misinformation can be harmful, influencing public opinion, elections, and decision-making processes. This project aims to develop a comprehensive machine learning-based solution to identify and flag fake news articles, thereby enhancing the quality of information available to the public.
 
