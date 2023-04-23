@@ -89,11 +89,11 @@ The optimised Random Forest model with Bag of Words successfully predicted rando
 
 ## Contributions
 ### Practical Motivation, Problem Formulation: 
-#### Bryan, Alex
+#### Alex, Bryan
 ### Data Cleaning, Exploratory Analysis, Analytic Visualization, Machine Learning Models, Model Optimization: 
 #### Chang Zen
 ### Video Editing, Voice Over:
-#### Bryan, Alex
+#### Alex, Bryan
 
 ## References
 Online:
