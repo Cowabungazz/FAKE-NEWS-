@@ -102,6 +102,7 @@ Online:
 - Text preprocessing with NLTK and BeautifulSoup: https://www.nltk.org/ and https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 - News Prediction 1: https://www.reuters.com/article/us-usa-fiscal-idUSKBN1EP0LK
 - News Prediction 2: https://web.archive.org/web/20161115024211/http://wtoe5news.com/us-election/pope-francis-shocks-world-endorses-donald-trump-for-president-releases-statement/
+- Video Credits: https://www.straitstimes.com/politics/online-falsehoods-weaponised-to-attack-the-infrastructure-of-fact-shanmugam https://www.youtube.com/watch?v=8dZ1jVz0jKM
 
 Offline:
 - Textbook 1: Jurafsky, D., & Martin, J. H. (2019). Speech and Language Processing (3rd Edition). Stanford University.
