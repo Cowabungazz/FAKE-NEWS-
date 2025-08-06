@@ -22,6 +22,28 @@ The following sections provide more details on the different steps and component
 
 ![image](https://user-images.githubusercontent.com/107359897/231129271-b6cbb73b-a362-42e8-a29b-d0397d568b0b.png)
 
+## Fake News Detection using Machine Learning
+Consolidated 44,908 news articles from Kaggle (23,490 labeled “fake,” 21,418 “real”) and added binary labels before shuffling and splitting.
+Normalized text by stripping HTML tags, digits, URLs, special characters, and stopwords; applied tokenization, stemming, and lemmatization; converted publication dates to datetime.
+Engineered multiple feature spaces: Bag‑of‑Words and TF‑IDF (top 10k tokens, stop‑word filtered) and averaged 100‑dimensional GloVe embeddings over each article’s title‑plus‑body.
+Benchmarked Logistic Regression, Random Forest, Multinomial Naive Bayes, and linear SVM across those representations; Random Forest on BoW or TF‑IDF scored ≈99.66% accuracy/precision/recall/F1.
+Performed RandomizedSearchCV on key hyperparameters (e.g., 200 estimators, min_samples_split=5) and reported perfect metrics (100% across the board) on the held-out test split.
+## Pros / Strengths
+Thorough text‑cleaning pipeline helps standardize noisy news content.
+Comparison of multiple vectorization techniques and classical ML models gives a broad performance baseline.
+Hyperparameter tuning demonstrates an effort to optimize each model rather than relying on defaults.
+## Cons / Caveats
+Metrics come from a single train/test split (80/20) without cross-validation, so results may be overly optimistic.
+The dataset is limited in topic range and time window; models may not generalize to newer events or different writing styles.
+Perfect accuracy suggests possible data leakage or overlap (e.g., near-duplicate articles in both train and test sets).
+Averaging GloVe vectors discards word order and context, limiting the power of embedding-based representations.
+## Potential Improvements
+Implement k‑fold cross-validation and maintain an untouched hold‑out set to verify generalization.
+Deduplicate articles and explore time‑based splits to reduce leakage between training and test data.
+Expand evaluation to additional datasets or cross-domain sources for external validity.
+Experiment with context-aware embeddings (BERT, RoBERTa) and include richer metrics (ROC‑AUC, confusion matrices) for a more nuanced view of model performance.
+
+
 ## Data Cleaning
 The data is preprocessed using Pandas and Natural Language Processing (NLP) libraries.
 The raw data is imported from two CSV files, 'Fake.csv' and 'True.csv'. The data is cleaned by:
